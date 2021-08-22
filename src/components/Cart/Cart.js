@@ -22,7 +22,7 @@ const Cart = ({ cart }) => {
 
   return (
     <div>
-      <div className="bg-blue p-8 flex justify-center font-sans">
+      <div className="bg-blue p-2 flex justify-center font-sans">
         <div className="rounded bg-grey-light w-80 p-2">
           <div className="flex justify-between py-1 border-b border-gray-300">
             <h3 className="text-4xl">Basket</h3>
@@ -39,10 +39,6 @@ const Cart = ({ cart }) => {
                 <span>$ {totalPrice}</span>
               </div>
               <div className="flex justify-between p-2">
-                <span>Savings: </span>
-                <span>$ {totalPrice}</span>
-              </div>
-              <div className="flex justify-between p-2">
                 <span>Total Amount: </span>
                 <span>$ {totalPrice}</span>
               </div>
@@ -50,7 +46,7 @@ const Cart = ({ cart }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center my-2">
         <Link to="/">
             <button className="font-sans bg-blue-500 focus:bg-blue-200 rounded p-2">Go Back</button>
         </Link>
