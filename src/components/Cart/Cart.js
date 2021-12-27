@@ -28,7 +28,7 @@ const Cart = ({ cart }) => {
         });
 
         setTotalItems(items);
-        setTotalPrice(parseFloat(price).toFixed(2));
+        setTotalPrice(parseFloat(price).toFixed(2) - cheeseSavings);
     }, [cart, totalPrice, totalItems, setTotalPrice, setTotalItems]);
 
     return (
