@@ -16,7 +16,7 @@ const Navbar = ({ cart }) => {
   }, [cart, cartCount]);
 
   return (
-    <div className="flex space-x-4 bg-blue-400 items-center justify-between font-sans">
+    <div className="flex space-x-4 bg-blue-400 items-center justify-between font-sans sticky top-0">
       <div className="p-2">
         <Link to="/">
           <h3 className="antialiased text-3xl font-medium">Online Shop</h3>
@@ -33,7 +33,7 @@ const Navbar = ({ cart }) => {
             </div>
           </div>
           <div>
-            <h3 className="font-medium text-sm text-center">Basket</h3>
+            <h3 className="font-medium text-sm text-center ">Basket</h3>
           </div>
         </Link>
       </div>

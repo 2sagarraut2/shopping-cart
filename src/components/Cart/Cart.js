@@ -33,12 +33,12 @@ const Cart = ({ cart }) => {
 
     return (
         <div>
-            <div className="bg-blue p-2 flex justify-center font-sans">
+            <div className="bg-blue p-2 flex justify-center font-sans ">
                 <div className="rounded bg-grey-light w-80 p-2">
-                    <div className="flex justify-between py-1 border-b border-gray-300">
+                    <div className="flex justify-between py-1 border-b border-gray-300 ">
                         <h3 className="text-4xl">Basket</h3>
                     </div>
-                    <div className="text-sm mt-2">
+                    <div className="text-sm mt-2 ">
                         <div className="bg-white p-2 rounded mt-1 border-b border-grey hover:bg-grey-lighter">
                             {cart.map((item) => (
                                 <CartItem
